@@ -1,0 +1,37 @@
+Chào các em,
+
+Thầy viết tin nhắn này để thực hiện việc giao đề tài cho các em.
+
+Việc giao đề tài của thầy là linh hoạt theo cách: Cho phép các em tự đề xuất đề tài mà mình mong muốn thực hiện và có thể thực hiện được trong khoảng thời gian mà nhà trường yêu cầu (đến đầu tháng 9).
+
+Các đề tài đó có thể là:
+
+- Thiết kế một ứng dụng đơn giản nào đó, ví dụ: Quản lý tính tiền các bàn của khách tại một quán cafe;
+
+- Thiết kế từ mức khái niệm một CSDL tương đối phức tạp (mô tả thế giới thực => xác định mô hình ER => mô hình quan hệ), ví dụ: Thiết kế CSDL quản lý Trang tín chỉ của SV trường ĐHKH Huế;
+
+- Tìm hiểu việc vận hành một ứng dụng, một công cụ mới hoặc một ngôn ngữ mới phục vụ cho một mục đích cụ thể, ví dụ: Tìm hiểu kỹ thuật phân tích dữ liệu bằng ngôn ngữ R.
+
+- ...
+
+Trên đây là các nội dung gợi ý để mỗi em chọn một đề tài thực tập viết niên luận. Theo đó, công việc đầu tiên của các em là viết tin nhắn cho thầy để điền các thông tin sau:
+
+- Họ tên sinh viên: ......
+
+- Mã sinh viên: .......
+
+- Số điện thoại: ........
+
+- Tên đề tài thực tập viết niên luận: ......
+
+- Mô tả nội dung của niên luận: ...........................
+
+                                              ............................
+
+Hạn cuối để gửi tin nhắn là ngày 09/7/2021. Em nào gửi sớm thì thời gian bắt tay vào làm càng sớm (dĩ nhiên sau khi thầy đã đồng ý cho làm đề tài mà em đó đã đề xuất). Quá ngày quy định mà SV vẫn chưa gửi tin nhắn thì xem như nhận điểm 0.
+
+Ngoài ra, thầy yêu cầu các em cần check mail vào ngày Thứ 6 của mỗi tuần để nắm các yêu cầu tiếp theo của thầy.
+
+Chúc các em thực tập nghiêm túc và đạt kết quả mong muốn.
+
+Hoàng Quang 
