@@ -71,6 +71,7 @@ namespace Qltaphoa
             // dataGridViewHanghoa
             // 
             this.dataGridViewHanghoa.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.dataGridViewHanghoa.AllowUserToAddRows = false;
             this.dataGridViewHanghoa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewHanghoa.BackgroundColor = System.Drawing.Color.LightGray;
             this.dataGridViewHanghoa.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -211,32 +212,33 @@ namespace Qltaphoa
             // txtTenhang
             // 
             this.txtTenhang.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtTenhang.Location = new System.Drawing.Point(480, 101);
+            this.txtTenhang.Location = new System.Drawing.Point(168, 101);
             this.txtTenhang.Multiline = true;
             this.txtTenhang.Name = "txtTenhang";
-            this.txtTenhang.PlaceholderText = "40000";
+            this.txtTenhang.PlaceholderText = "Danisa";
             this.txtTenhang.Size = new System.Drawing.Size(196, 38);
             this.txtTenhang.TabIndex = 4;
             // 
             // txtLoaihang
             // 
             this.txtLoaihang.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtLoaihang.Location = new System.Drawing.Point(168, 101);
+            this.txtLoaihang.Location = new System.Drawing.Point(168, 168);
             this.txtLoaihang.Multiline = true;
             this.txtLoaihang.Name = "txtLoaihang";
-            this.txtLoaihang.PlaceholderText = "Danisa";
+            this.txtLoaihang.PlaceholderText = "Bánh";
             this.txtLoaihang.Size = new System.Drawing.Size(196, 38);
             this.txtLoaihang.TabIndex = 4;
             // 
             // txtDongia
             // 
             this.txtDongia.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDongia.Location = new System.Drawing.Point(168, 168);
+            this.txtDongia.Location = new System.Drawing.Point(480, 101);
             this.txtDongia.Multiline = true;
             this.txtDongia.Name = "txtDongia";
-            this.txtDongia.PlaceholderText = "Bánh";
+            this.txtDongia.PlaceholderText = "40000";
             this.txtDongia.Size = new System.Drawing.Size(196, 38);
             this.txtDongia.TabIndex = 4;
+            this.txtDongia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDongia_KeyPress);
             // 
             // txtSoluong
             // 
@@ -247,6 +249,7 @@ namespace Qltaphoa
             this.txtSoluong.PlaceholderText = "5";
             this.txtSoluong.Size = new System.Drawing.Size(196, 38);
             this.txtSoluong.TabIndex = 4;
+            this.txtSoluong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoluong_KeyPress);
             // 
             // labMahang
             // 

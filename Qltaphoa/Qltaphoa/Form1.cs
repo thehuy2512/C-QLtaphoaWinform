@@ -121,8 +121,10 @@ namespace Qltaphoa
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            if (CheckData())
-            {
+            
+            
+                if (CheckData())
+                {
                 tblHanghoa Hh = new tblHanghoa();
                 Hh.Id = Id;
                 Hh.Mahang = txtMahang.Text;
@@ -136,7 +138,9 @@ namespace Qltaphoa
                 else
                     MessageBox.Show("Đã có lỗi xảy ra khi sửa, hãy thử lại ", "Thông báo lỗi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
-            }
+                }
+            
+            
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -190,6 +194,22 @@ namespace Qltaphoa
         private void txtMahang_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void txtDongia_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtSoluong_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
